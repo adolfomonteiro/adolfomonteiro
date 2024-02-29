@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<style>
+body{
+  margin:auto;
+  position:relative;
+  display:flex;
+  height:80vh;
+  align-items:center;
+  justify-content:center;
+  background:black;
+  color:white;
+}
+table{
+  padding:20px;
+  background-color:black;
+  position:absolute;
+  border-color:transparent;
+}
+td{
+  padding:6px;
+  font-weight:bold;
+  text-align:left;
+  border: 2px solid blueviolet;
+  animation:drift 500ms infinite linear;
+  border-top-color:pink;
+  border-left-color:white;
+  border-right-color:pink;
+  border-bottom-color:white;
+}
+@keyframes drift{
+  from{
+    padding:6.5px;
+  transition:25s;
+  }
+}
+</style>
+<body>
+  <table border="1">
+ <tr>
+   <td>Li</td>
+   <td>Fb</td>
+   <td style="border:none;"></td>
+   <td style="border:none;"></td>
+   <td style="border:none;"></td>
+   <td style="border:none;"></td>
+   <td>Db</td>
+   <td>Ct</td>
+   <td>Si</td>
+ </tr>
+ <tr>
+   <td>Wk</td>
+   <td>St</td>
+   <td>Tw</td>
+   <td>Tc</td>
+   <td>Gt</td>
+   <td>Yn</td>
+   <td>II</td>
+   <td>Te</td>
+   <td>Wu</td>
+ </tr>
+ <tr>
+   <td>Cv</td>
+   <td>Dg</td>
+   <td>Tg</td>
+   <td>Gg</td>
+   <td>Ex</td>
+   <td>So</td>
+   <td>Cd</td>
+   <td>Cp</td>
+   <td>Tr</td>
+ </tr>
+ <tr>
+   <td style="border:none;"></td>
+   <td>In</td>
+   <td>Mu</td>
+   <td>Me</td>
+   <td>No</td>
+   <td>Re</td>
+   <td>Rd</td>
+   <td>St</td>
+   <td>Ad</td>
+ </tr>
+ </table>
+</body>
+
+</html>
